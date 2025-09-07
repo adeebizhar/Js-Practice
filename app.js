@@ -1,0 +1,116 @@
+console.log("Javascript is connected!");
+
+// let numb = prompt("Enter a number ");
+
+// if (numb % 2 == 0) {
+
+//     alert( "the number is even");
+
+// }else  if (numb % 2 !== 0) {
+
+//     alert("the number is odd");
+
+// }
+
+// let temprature = prompt ("type the  Temprature  in your's Country ")
+
+// if (temprature > 30 ){
+
+//     alert("It's hot");
+
+// }else if (temprature < 30 && temprature > 20 ){
+
+//     alert("Nice weather");
+
+// }else  if (temprature < 20 ){
+
+//     alert("It's cold"); 
+
+// }else{
+
+//     alert("Please enter the valid temprature");
+
+// }
+
+
+
+// let password = 16345;
+
+// if (password === 12345){
+//     console.log("Login Succesfull");
+    
+// }else{
+//     console.log("Login Failed");
+    
+// }
+
+// let num1 = Number(prompt("Enter First Number:"));
+// let num2 = Number(prompt("Enter Second Number:"));
+// let operater = prompt("Enter operater(+ or -):");
+
+// if (operater === "+"){
+//     console.log("Sum =" + (num1 + num2));
+    
+// }else if (operater === "-")  {
+// console.log("Difference =" + (num1 - num2));
+
+// }else {
+//     console.log("Invalid Operater");
+    
+// }
+
+
+//  Calculater :
+
+//    let num1 = prompt ("Enter First number:");
+//    let num2 = prompt("Enter Second number:");
+//    let operater = prompt ("Enter Operater (+,-,*,/,%):");
+
+//    if (operater === "+"){
+//       console.log("num1 + num2 =" + (num1 + num2));
+      
+//    }else if (operater === "-"){
+
+//       console.log("num1 - num2 =" + (num1 - num2));
+
+//    }else if (operater === "*"){
+
+//       console.log("num1 * num2 =" + (num1 * num2));
+
+//    }else if (operater === "/"){
+
+//       console.log("num1 / num2 =" + (num1 / num2));
+//    }else if (operater === "%"){
+
+//       console.log("num1 % num2 =" + (num1 % num2));
+//    }else {
+// console.log("Invalid Operater");
+
+//    }
+
+// Loop Practice!
+
+// let stdNames = ["Musa","Haroon", "Malik Shahzain","ADEEB IZHAR","A.Raheem", "Shehroz Alam","Shehroz Shahid"];
+// for (let i = 0; i < stdNames.length;  i++) {
+     
+//     console.log(stdNames[i]);
+// }
+
+// let stdNames = ["Musa","Haroon", "Malik Shahzain","ADEEB IZHAR","A.Raheem", "Shehroz Alam","Shehroz Shahid" , "Dawood","Raheel","Abbas","Qadir"];
+// let presentStd = prompt("Find out if a student is present or absent :");
+// let isFound = false;
+
+// for (let i = 0; i < stdNames.length; i++) {
+//     if (stdNames[i] === presentStd) {
+//         isFound = true;
+//         console.log("The Student is present");
+//         break;
+        
+//     }
+     
+// }
+
+// if (isFound === false) {
+//     console.log("The Student is Absent");
+    
+// }
