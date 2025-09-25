@@ -214,4 +214,62 @@ console.log("Javascript is connected!");
 // console.log(startChar);
 
 
-// The convert of User input in uppercase!
+// Capitialize first letter after spacing!
+
+
+// let lowercase = "abcdefghijklmnopqrstuvwxyz";
+// let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// let input = prompt("Type anything here ");
+
+// let result = "";
+
+
+// let  isStart = true;
+
+// for (let i = 0; i < input.length; i++) {
+//     let char = input[i];
+
+//     if (isStart) {
+
+//         let found = false;
+
+//         for (let j = 0; j < lowercase.length; j++) {
+            
+//             if (char === lowercase[j]) {
+//                 result += uppercase[j];
+//                 found = true;
+//                 break;
+//             }
+            
+//         }
+//         if (!found) {
+//             result += char;
+//         }
+
+//         isStart = false;
+//     }else{
+//         found = false;
+
+//         for (let j = 0; j < uppercase.length; j++) {
+            
+//             if (char === uppercase[j]) {
+//                 result += lowercase[j]
+//                 found = true;
+//                 break;
+//             }
+            
+//         }
+
+//         if (!found) {
+//            result += char;
+
+//         }
+//     }
+
+//     if (char == " ") {
+//         isStart = true;
+//     }
+    
+// };
+
+// console.log(result);
