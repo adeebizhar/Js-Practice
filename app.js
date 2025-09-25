@@ -114,3 +114,104 @@ console.log("Javascript is connected!");
 //     console.log("The Student is Absent");
     
 // }
+
+// Inner loop & outer loop!
+// for (let i = 1; i <= 10; i++) {
+//     let star = " ";
+    
+//     for (let j = 1; j <= i ; j++) {
+//     star += " * " ;
+        
+//     }
+//     console.log(star);
+    
+// }
+
+
+// let std = [
+//     ["Ali" , [80,90,70]],
+//     ["Omar",[90,70,60]],
+//     ["Junaid",[80,90,95]]
+// ];
+
+// for (let i = 0; i < std.length; i++) {
+//       console.log(std[i]);
+      
+    
+// }
+
+
+// let std = [
+//     ["Ali" , [80,90,70]],
+//     ["Omar",[90,70,60]],
+//     ["Junaid",[80,90,95]]
+// ];
+
+// for (let i = 0; i < std.length; i++) {
+//         let name = std[i][0];
+//     let total = 0;
+//       let perc = 0;
+
+//       for (let j = 0; j < std[i][1].length; j++) {
+      
+
+//         total += std[i][1][j];
+       
+//       }
+
+      
+//     console.log(name + " :"+ total );
+    
+// }
+
+
+// String Method Practice!
+
+
+// let str = "      Hellow World  ";
+// console.log(str);
+
+// str = str.trim()
+// str = str.toUpperCase()
+// console.log(str);
+
+// let str = "          Hellow World  ";
+//  str = str.trim().toLowerCase();
+
+// console.log(str);
+
+// let firstChar = str.slice(0,3).toUpperCase();
+// console.log(firstChar);
+
+// firstChar = str.slice(-2);
+// console.log(firstChar);
+
+// Months name slice start 3 words !
+
+// let month = ["JANUARY", "FEBRUARY","MARCH","APRIL","MAY", "JUNE", "JULY", "AUGUST","SEPTEMBER" ,"OCTOBER",
+// "NOVEMBER","DECEMBER"];
+// let input = prompt("Type any months name").trim().toUpperCase();
+
+// let startChar ;
+// let isFound = false;
+// for (let index = 0; index < month.length; index++) {
+//    let lowercase =  month[index].toUpperCase();
+//    // console.log(lowercase);
+
+//    if (input === lowercase) {
+//       startChar = lowercase.slice(0,3);
+//       isFound = true;
+//       break;
+//    }
+
+// }
+
+// if (!isFound) {
+//    console.log("Write the correct Months Name!");
+   
+// }
+
+// console.log(startChar);
+
+
+// The convert of User input in uppercase!
