@@ -273,3 +273,32 @@ console.log("Javascript is connected!");
 // };
 
 // console.log(result);
+
+// let petrol = 265.4;
+// console.log(Math.floor(petrol));
+// console.log(Math.ceil(petrol));
+// console.log(Math.round(petrol));
+// console.log(Math.random(petrol));
+// console.log(Math.floor(Math.random()*10)+1);
+
+
+
+
+// Guess the number (Game) :
+
+alert("Let's play the game! Guess the number between 1 to 50")
+let user = +prompt("Guess the number");
+let num = Math.floor(Math.random()*50)+1;
+ console.log(num);
+if (num === user) {
+    alert("Congrates! You has won");
+} else if (num > user ) {
+    
+alert("Oh shit! so far your dailed Number so small ");
+} else if (num < user) {
+    alert("Oh shit! so far your dailed Number so long");
+} else {
+    alert("Not a number")
+}
+
+
