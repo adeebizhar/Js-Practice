@@ -286,19 +286,24 @@ console.log("Javascript is connected!");
 
 // Guess the number (Game) :
 
-alert("Let's play the game! Guess the number between 1 to 50")
-let user = +prompt("Guess the number");
+document.write("<h1> Welcome to the Gaming Wesite:</h1>");
+
+let user = +prompt("Let's play the game! Guess the number between 1 to 50");
 let num = Math.floor(Math.random()*50)+1;
  console.log(num);
 if (num === user) {
-    alert("Congrates! You has won");
+document.write("<h1>Congrates! You has won</h1><br>");
+    
 } else if (num > user ) {
     
-alert("Oh shit! so far your dailed Number so small ");
+    document.write("<h1>Oh shit! so far your dailed Number so small  The Correct Number is : " + num + "</h1><br>");
+
 } else if (num < user) {
-    alert("Oh shit! so far your dailed Number so long");
+    
+     document.write("<h1>Oh shit! so far your dailed Number so big The Correct Number is :  " + num + "</h1><br>");
 } else {
-    alert("Not a number")
+    
+    document.write("<h1> Not a Number </h1><br>");
 }
 
 
