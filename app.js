@@ -296,11 +296,11 @@ document.write("<h1>Congrates! You has won</h1><br>");
     
 } else if (num > user ) {
     
-    document.write("<h1>Oh shit! so far your dailed Number so small  The Correct Number is : " + num + "</h1><br>");
+    document.write("<h1>Oops 😅 your dialed number is too small — the right one is   " + num + "!</h1><br>");
 
 } else if (num < user) {
     
-     document.write("<h1>Oh shit! so far your dailed Number so big The Correct Number is :  " + num + "</h1><br>");
+     document.write("<h1>Oops 😅 your dialed number is too high — the right one is   " + num + "!</h1><br>");
 } else {
     
     document.write("<h1> Not a Number </h1><br>");
