@@ -274,6 +274,67 @@ console.log("Javascript is connected!");
 
 // console.log(result);
 
+
+// --------- String Methods!--------
+
+// let letter = "    adeeb izhar  ";
+// let upperCase = letter.toUpperCase().trim();
+// console.log(letter);
+// console.log(upperCase);
+
+// UpperCase & LowerCase Practice!
+
+// let cities = ["karachi", "lahore","islamabad","peshawar", "quetta","heyderabad"];
+
+// let citytoCheck = prompt("Software house branches Available in Cities");
+// let isFound = false;
+
+// for (let index = 0; index < cities.length; index++) {
+    
+//     if (citytoCheck.toUpperCase().trim() === cities[index].toUpperCase()) {
+//         isFound = true;
+//         document.write(" <h1> Software house Available in "+ cities[index].toUpperCase() + "</h1>")
+//     }
+    
+// }
+
+// if (!isFound) {
+//     document.write(" <h1> Software house Not Available in "+ cities[index].toUpperCase() + "</h1>")
+// }
+
+
+// let char = "adeeb izhar you are a best developer in the world, I want to heard this . This is my goal!";
+// let parts = char.split(" ");
+// // console.log(parts);
+
+// Abberivation!
+// let name = prompt(" Abberivation").trim().toUpperCase();
+// let charsInshort = name.length;
+
+// let nameAbbr = name;
+// if (charsInshort > 3) {
+//      nameAbbr = name.slice(0,3);
+// }
+
+// console.log(nameAbbr);
+
+
+//  let goal = "adeeb izhar you are a best developer in the world, I want to heard this . This is my goal! izhar";
+// let text = goal.indexOf("heard");
+// let length = goal.length;
+// let takeTheword = goal.charAt(goal.length -2).toUpperCase();
+// let replace = goal.replace("izhar","sheikh");
+// let replace1 = goal.replace(/izhar/g,"sheikh");// "g" means global!
+// let text1 = goal.lastIndexOf("goal")
+// console.log(replace1);
+// console.log(takeTheword);
+// console.log(length);
+// console.log(text1);
+
+
+// ------Math methods-------
+
+
 // let petrol = 265.4;
 // console.log(Math.floor(petrol));
 // console.log(Math.ceil(petrol));
@@ -283,27 +344,24 @@ console.log("Javascript is connected!");
 
 
 
+// ------Guess the number (Game) :----------
 
-// Guess the number (Game) :
+// document.write("<h1> Welcome to the Gaming Wesite:</h1>");
 
-document.write("<h1> Welcome to the Gaming Wesite:</h1>");
-
-let user = +prompt("Let's play the game! Guess the number between 1 to 50");
-let num = Math.floor(Math.random()*50)+1;
- console.log(num);
-if (num === user) {
-document.write("<h1>Congrates! You has won</h1><br>");
+// let user = +prompt("Let's play the game! Guess the number between 1 to 50");
+// let num = Math.floor(Math.random()*50)+1;
+//  console.log(num);
+// if (num === user) {
+// document.write("<h1>Congrates! You has won</h1><br>");
     
-} else if (num > user ) {
+// } else if (num > user ) {
     
-    document.write("<h1>Oops 😅 your dialed number is too small — the right one is   " + num + "!</h1><br>");
+//     document.write("<h1>Oops 😅 your dialed number is too small — the right one is   " + num + "!</h1><br>");
 
-} else if (num < user) {
+// } else if (num < user) {
     
-     document.write("<h1>Oops 😅 your dialed number is too high — the right one is   " + num + "!</h1><br>");
-} else {
+//      document.write("<h1>Oops 😅 your dialed number is too high — the right one is   " + num + "!</h1><br>");
+// } else {
     
-    document.write("<h1> Not a Number </h1><br>");
-}
-
-
+//     document.write("<h1> Not a Number </h1><br>");
+// }
