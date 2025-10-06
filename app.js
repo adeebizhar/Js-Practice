@@ -344,7 +344,7 @@ console.log("Javascript is connected!");
 
 
 
-// ------Guess the number (Game) :----------
+// ------Guess the number (Game) :
 
 // document.write("<h1> Welcome to the Gaming Wesite:</h1>");
 
@@ -365,3 +365,187 @@ console.log("Javascript is connected!");
     
 //     document.write("<h1> Not a Number </h1><br>");
 // }
+
+
+// ---- Toss------!
+
+// let toss = Math.floor(Math.random()*2);
+// let userInput = +prompt("1 is Head, 2 is Tails");
+
+// if (userInput === toss) {
+//     document.write("<h1 >Heads"+ "</h1>");
+// } else  {
+//     document.write("<h1>Tails"+ "</h1>");
+// }
+
+// Converting String to integers & decimal!
+
+// let age = "18";
+// console.log(age);
+// console.log(parseInt(age));
+
+// let num = "16.809";
+// console.log(num);
+// console.log(parseFloat(num));
+
+
+// let persentage = 85.78;
+// console.log(Number(persentage));
+
+// Converting Number to String !
+
+// let score = 305;
+// console.log(String(score));
+// console.log(score.toString());
+
+// Decimal number lenght fixed !
+
+// let persenTage = 89.79877645321098;
+// console.log(+persenTage.toFixed(2));
+
+// PI , power , Square root & Euler's formula!
+// console.log(Math.PI);
+// console.log(Math.E);
+// console.log(Math.pow(3,2));
+// console.log(Math.floor(Math.sqrt(50,5)));
+
+// Return Largest Number & Smallest Number !
+
+// console.log(Math.max(22,70,89,94,20,37,73,105));
+
+// console.log(Math.min(22,70,89,94,20,37,73,105));
+
+// Convert the Negatinve number to positive Number!
+
+// console.log(Math.abs(-789));
+
+
+
+//      --------- Date & Time ---------
+
+// let now = new Date();
+// console.log(now);
+
+// let theDay = now.getDay();
+// let dayNames = ["Sunday","Monday","Tuesday","WednesDay","Thursday","Saturday"];
+// let currentDay = dayNames[theDay];
+// console.log(currentDay);
+
+// let theMonth = now.getMonth();
+// let monthNames = ["January","Feburary","March","April","May","June",
+// "July","August","September", "October","November","December"];
+// let currentMonth = monthNames[theMonth];
+// console.log(currentMonth);
+
+// let theDate = now.getDate();
+// console.log(theDate);
+
+
+// let theYear = now.getFullYear();
+// console.log(theYear);
+
+// let hour = now.getHours();
+// console.log(hour);
+
+// let minutes = now.getMinutes();
+// console.log(minutes);
+
+// let seconds = now.getSeconds();
+// console.log(seconds);
+
+// let miliSeconds = now.getMilliseconds();
+// console.log(miliSeconds);
+
+// let time = now.getTime(); // 1st jan 1970 midnight sa ab tk ka miliseconds!
+// console.log(time);
+
+// // Specifying a date & time!
+
+// let today = new Date();
+// let birth = new Date("November,6,2006");
+// birth.setDate(4);
+// let doomsDay = new Date ("2092,12, 25");
+// doomsDay.setFullYear(2099);
+// console.log(today);
+// console.log(doomsDay);
+// console.log(birth);
+
+
+// let  now1 = new Date();
+// now1.setMonth(0);
+// now1.setHours(17);
+// now1.setMinutes(59);
+// now1.setSeconds(4);
+// now1.setMilliseconds(990);
+// now1.setFullYear(2008);
+// console.log(now1);
+
+// --------- Age Calculater ------------
+
+// let userInput = prompt("Type your BirthDate Ex. june 15, 2015");
+
+// let now = new Date();
+// let birthDate = new Date(userInput);
+
+// let msDiff = now - birthDate;
+// let days = Math.floor(msDiff / (1000 * 60 * 60 * 24 * 30 * 12) );
+
+// console.log(days);
+
+//  ----- Advance Code for Age Calculater!---------
+
+// let userInput = prompt("Type your BirthDate Example (june 15 2015) :");
+// let now = new Date();
+// let birthDate = new Date(userInput);
+// let years = now.getFullYear() - birthDate.getFullYear();
+// let months = now.getMonth() - birthDate.getMonth();
+// let days = now.getDate() - birthDate.getDate();
+
+// if (days < 0) {
+//     months--;
+
+//     let prevMonths = new Date(now.getFullYear(),
+// now.getMonth, 0);
+// days += prevMonths.getDate();
+
+// }
+
+// if (months < 0) {
+//     years--;
+//     months += 12;
+// }
+
+// document.write("<h1>Age Calculater :</h1>")
+// document.write(`<h1> Your Age is ${years} years , ${months} months , and ${days} days. </h1>`)
+
+
+// Function!
+
+// function myFunction() {
+//     console.log("I love js");
+    
+// };
+
+// myFunction();
+
+// function greeting(msg) {
+//     alert(msg);
+// };
+
+// greeting("Hellow , There");
+
+
+// function mult(msg , num) {
+//     console.log(msg * num);
+    
+// };
+
+// mult(218,10);
+
+
+// function percenTage(num1,num2) {
+//     return num1 * 100 / num2  ;
+// };
+
+// let score = percenTage(310,500);
+// console.log(score);
